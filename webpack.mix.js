@@ -67,7 +67,7 @@ mix.js('resources/assets/main.js', 'public/')
 
 
 // set path for production link
-mix.setResourceRoot('/vuejs-laravel/public/')
+mix.setResourceRoot('/')
 
 
 // Disable all OS notifications

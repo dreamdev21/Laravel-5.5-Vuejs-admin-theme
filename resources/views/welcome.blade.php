@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>VueJs-Admin</title>
-    <link rel="shortcut icon" href="src/assets/img/favicon.png" />
+    <link rel="shortcut icon" href="src/assets/img/favicon.png"/>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -13,15 +13,16 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
     <style>
-        #preloader{
+        #preloader {
             position: fixed;
-            top:0;
+            top: 0;
             bottom: 0;
             left: 0;
             right: 0;
             z-index: 9999;
             background: #6f9fe6;
         }
+
         .spinner {
             margin: auto;
             width: 70px;
@@ -89,18 +90,18 @@
         }
     </style>
     <script>
-    window.onload=function () {
-        document.querySelector('#preloader').remove()
-    }
+        window.onload = function () {
+            document.querySelector('#preloader').remove()
+        }
     </script>
 </head>
 
 <body>
 <div id="preloader">
-<div class="spinner">
-    <div class="dot1"></div>
-    <div class="dot2"></div>
-</div>
+    <div class="spinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+    </div>
 </div>
 <div id="app"></div>
 
